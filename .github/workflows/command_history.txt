@@ -1,0 +1,30 @@
+  499  cd Documents/Personal/Repo/Course/
+  500  mkdir GHActions
+  501  cd GHActions/
+  502  brew install gh
+  503  gh auth login
+  504  gh repo fork ibm-developer-skills-network/wtecc-CICD_PracticeCode --clone=true
+  505  cd wtecc-CICD_PracticeCode
+  506  ll
+  507  mkdir -p .github/workflows
+  508  cd .github/workflows/
+  521  git config --global user.email "magno.araujo@gmail.com"
+  522  git config --global user.name "Magno Araujo"
+  523  git add -A
+  524  git commit -m "COMMIT MESSAGE"
+  525  history > command_history.txt
+ cd Documents/Personal/Repo/Course/
+ mkdir GHActions
+ cd GHActions/
+ brew install gh
+ gh auth login
+ gh repo fork ibm-developer-skills-network/wtecc-CICD_PracticeCode --clone=true
+ cd wtecc-CICD_PracticeCode
+ ll
+ mkdir -p .github/workflows
+ cd .github/workflows/
+ git config --global user.email "magno.araujo@gmail.com"
+ git config --global user.name "Magno Araujo"
+ git add -A
+ git commit -m "COMMIT MESSAGE"
+ history > command_history.txt
